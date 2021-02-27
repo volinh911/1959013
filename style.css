@@ -1,0 +1,1009 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    z-index: 1000;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+img{
+    border-radius: 5px;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+    font-size: 0.95rem;
+    padding: 0 1rem;
+    font-weight: 400;
+}
+
+#navbarSupportedContent > button {
+    background: #2196F3;
+    padding: 0.8rem;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: none;
+    margin-left: 4rem;
+    border-radius: 5px;
+}
+
+#navbarSupportedContent > ul:nth-child(3) > li:nth-child(n) > a > i {
+    color: #757575;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a:active {
+    color: #2196F3;
+}
+
+.welcome .text h1{
+    font-weight: 600;
+} 
+
+.welcome .text p{
+    font-weight: 400;
+}
+
+.welcome .text a {
+    padding: 0.8rem;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+#mid > div > div.text.col-lg-6.col-md-6.col-12.w-50.pt-5.pb-5 > a.one.btn.waves-effect.waves-light{
+    background: #2196F3;
+    color: white;
+}
+
+.intro .card h6{
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.intro .card a{
+    position: absolute;
+    bottom: 2px;
+    font-weight: 500;
+}
+
+body > section.intro > div > div > div:nth-child(1) > div {
+    border-right: 1px !important;
+}
+
+.featured .card{
+    background: #f5f5f5;
+    box-shadow: none;
+}
+
+.featured .headline{
+    margin-bottom: 20px;
+}
+
+.featured .headline h1{
+    font-weight: 600;
+}
+
+.featured .headline a{
+    padding: 0.8rem;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.featured .content img{
+    width: 100px;
+    position: relative;
+    align-items: center;
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.featured .content a {
+    padding: 0.8rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    text-transform: none;
+    border-radius: 5px;
+}
+
+body > section.featured > div > div.row.content > div:nth-child(n) > div > div > a.one.btn.waves-effect.waves-light{
+    background: #2196F3;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.succeed {
+    margin-top: 100px;
+}
+
+.succeed h1{
+    font-weight: 600;
+}
+
+.succeed p{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 350;
+}
+
+.succeed a{
+    padding: 0.8rem;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 5px;
+    font-weight: 500;
+    background: #2196F3;
+    color: white;
+    font-size: 1rem;
+}
+
+.succeed .card h4{
+    font-weight: 600;
+}
+
+.succeed .card{
+    position: relative;
+}
+
+body > section.succeed > div > div.row.my-5 > div:nth-child(n) > div > div > p{
+    color: #111;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.succeed .card a{
+    position: absolute;
+    bottom: 5px;
+    background: none;
+    color: #2196F3;
+}
+
+.latest .inner{
+    overflow: hidden;
+}
+
+.latest .inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.25);
+}
+
+.first-img{
+    position: relative;
+}
+.first-img h2{
+    position: absolute;
+    bottom: 120px;
+    margin-left: 30px;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.first-img p{
+    position: absolute;
+    bottom: 40px;
+    margin-left: 30px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.second-img img{
+    height: 300px;
+}
+
+.second-img{
+    position: relative;
+}
+.second-img h4{
+    position: absolute;
+    bottom: 130px;
+    margin-left: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.second-img p{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+body > section.latest > div > div > div.second-img.col-lg-4.col-md-4.col-sm-6 > div.row.my-2 > div > div > h4 {
+    bottom: 80px;
+}
+
+.third-img .para {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.made{
+    margin-top: 100px;
+    background: url("made2.jpg");
+    border: none;
+    padding-bottom: 50px;
+}
+
+.made .title h1{
+    padding-top: 100px;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.made .text p{
+    margin-top: 20px;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.made a{
+    padding: 0.8rem;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 5px;
+    font-weight: 500;
+    background: #2196F3;
+    color: white;
+    font-size: 1rem;
+}
+
+.made .card{
+    display: block;
+    border: 3px solid #fff;
+    border-radius: 6px;
+    box-shadow: none;
+    background: white;
+}
+.made .card-title{
+    font-weight: 600;
+}
+
+.made .card a{
+    background-color: transparent;
+    color: #2196F3;
+    position: absolute;
+    bottom: 10px;
+}
+
+.hiring h1{
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.hiring p{
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.hiring a{
+    padding: 0.8rem;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 5px;
+    font-weight: 500;
+    background: #2196F3;
+    color: white;
+    font-size: 1rem;
+}
+
+.possibilities {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.possibilities h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.possibilities p{
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+.possibilities img {
+    width: 80px;
+    margin-bottom: 50px;
+} 
+
+.solutions {
+    position: relative;
+}
+
+.solutions h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: 350px;
+    color: #fff;
+    margin-left: 80px;
+    margin-right: 350px;
+}
+
+.solutions p{
+    position: absolute;
+    bottom: 270px;
+    margin-left: 80px;
+    margin-right: 350px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.solutions button{
+    padding: 0.8rem;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 5px;
+    font-weight: 500;
+    background: #2196F3;
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top:60%;
+    left: 1%;
+    margin-left: 80px;
+    margin-right: 350px;
+    z-index: 1000;
+}
+
+footer {
+    background: #111;
+    padding-bottom: 40px;
+
+}
+
+footer hr{
+    border-top: 1px solid #666;
+}
+
+footer .language-social{
+    padding-top: 50px;
+}
+
+footer .language-social .row{
+    color: #999;
+}
+
+footer .language-social .social a{
+    color: #999;
+}
+
+.links a {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.links h5{
+    font-size: 1rem;
+}
+
+footer .social p{
+    padding-left: 40px;
+}
+
+footer .copyright{
+    font-size: 0.9rem;
+}
+
+body > footer > div > section.copyright > div > div > div > ul{
+    list-style: none;
+    margin: 0 0 50px 0;
+    padding: 0;
+
+}
+
+body > footer > div > section.copyright > div > div > div > ul > li:nth-child(n){
+    display: inline;
+    font-size: 0.8rem;
+    color: #999;
+    padding-right: 10px;
+}
+
+.create .card{
+    background: #f5f5f5;
+    box-shadow: none;
+}
+
+.create .headline{
+    margin-bottom: 20px;
+}
+
+.create .headline h1{
+    font-weight: 600;
+}
+
+.create .headline a{
+    padding: 0.8rem;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.create .content img{
+    width: 100px;
+    position: relative;
+    align-items: center;
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.create .content a {
+    padding: 0.8rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    text-transform: none;
+    border-radius: 5px;
+}
+
+body > section > div > div:nth-child(n) > div:nth-child(n) > div > div > a.one.btn.waves-effect.waves-light{
+    background: #2196F3;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.banner{
+    background: url("solutionsbackground.jpg");
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.banner h1{
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.banner h3{
+    margin-left: 50px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-right: 50px;
+}
+
+.solutions-content{
+    margin-left: 25px;
+}
+
+.solutions-content .card{
+    position: relative;
+}
+
+.solutions-content .card a{
+    position: absolute;
+    bottom: 5px;
+}
+
+.solutions-content .card h5{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.solutions-end {
+    position: relative;
+}
+
+.solutions-end img{
+    height: 550px;
+}
+
+.solutions-end h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: 300px;
+    color: #fff;
+    margin-left: 100px;
+    margin-right: 350px;
+}
+
+.solutions-end p{
+    position: absolute;
+    bottom: 180px;
+    margin-left: 100px;
+    margin-right: 350px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.solutions-end button{
+    padding: 0.8rem;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 5px;
+    font-weight: 500;
+    background: #2196F3;
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top:70%;
+    left: 3%;
+    margin-left: 80px;
+    margin-right: 350px;
+    z-index: 1000;
+}
+.banner-case{
+
+    /*darken background*/
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("casebackground.webp");
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-blend-mode: darken;
+}
+
+.banner-case h1{
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.banner-case h3{
+    margin-left: 50px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.new h2{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.new .card{
+    position: relative
+}
+
+.new .card a{
+    position: absolute;
+    bottom: 5px;
+    font-weight: 500;
+}
+
+.new .card .card-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.new .card .card-genre{
+    color:#999;
+    font-size: 0.9rem;
+}
+
+.new .card .card-text{
+    color: #111;
+    font-size: 0.9rem;
+}
+
+.popular{
+    padding-top: 100px;
+}
+
+.popular h2{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.popular .card{
+    position: relative
+}
+
+.popular .card a{
+    position: absolute;
+    bottom: 5px;
+    font-weight: 500;
+}
+
+.popular .card .card-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.popular .card .card-genre{
+    color:#999;
+    font-size: 0.9rem;
+}
+
+.popular .card .card-text{
+    color: #111;
+    font-size: 0.9rem;
+}
+
+.case-end {
+    position: relative;
+}
+
+.case-end img{
+    filter: brightness(50%);
+}
+
+.case-end h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: 200px;
+    color: #fff;
+    margin-left: 100px;
+    margin-right: 350px;
+}
+
+.case-end p{
+    position: absolute;
+    bottom: 120px;
+    margin-left: 100px;
+    margin-right: 350px;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.case-end button{
+    padding: 0.8rem;
+    text-decoration: none;
+    text-transform: none;
+    border-radius: 5px;
+    font-weight: 500;
+    background: #2196F3;
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top:70%;
+    left: 3%;
+    margin-left: 80px;
+    margin-right: 350px;
+    z-index: 1000;
+}
+
+.community {
+    /*darken background*/
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("communitybackground.jpg");
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.community h1{
+    font-size: 4rem;
+}
+.community h3{
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+
+.community-content{
+    margin-left: 25px;
+}
+
+.community-content .card{
+    position: relative;
+    box-shadow: none;
+}
+
+.community-content .card a{
+    position: absolute;
+    bottom: 5px;
+}
+
+.community-content .card h5{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.community-content .card .card-text{
+    color: #111;
+}
+
+.connect{
+    padding-top: 50px;
+}
+.connect h2{
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 988px) {
+    .first-img h2{
+        bottom: 150px;
+        font-size: 2rem;
+    }
+    .first-img p{
+        bottom: 80px;
+        margin-right: 20px;
+        font-size: 1rem;
+    }
+    .second-img img{
+        height: 230px;
+    }
+    
+    .second-img h4{
+        bottom: 130px;
+        font-size: 1.3rem;
+    }
+    .second-img p{
+        bottom: 10px;
+        font-size: 0.8rem;
+    }
+    .solutions h1{
+        font-size: 2.5rem;
+        bottom: 280px;
+    }
+    
+    .solutions p{
+        bottom: 180px;
+        font-size: 1.1rem;
+    }
+    
+    .solutions-end img{
+        height: 480px;
+    }
+    
+    .solutions-end h1{
+        font-size: 1.8rem;
+        bottom: 280px;
+    }
+    
+    .solutions-end p{
+        bottom: 180px;
+        font-size: 0.7rem;
+    }
+    .case-end h1{
+        font-size: 2rem;
+        bottom: 180px;
+    }
+    
+    .case-end p{
+        bottom: 75px;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .first-img h2{
+        bottom: 300px;
+        font-size: 1rem;
+    }
+    .first-img p{
+        bottom: 250px;
+        margin-right: 20px;
+        font-size: 0.8rem;
+    }
+    .second-img img{
+        height: 125px;
+        width: 350px;
+    }
+    
+    .second-img h4{
+        bottom: 80px;
+        font-size: 1rem;
+    }
+    .second-img p{
+        bottom: 10px;
+        font-size: 0.7rem;
+    }
+    .solutions h1{
+        font-size: 1.3rem;
+        bottom: 200px;
+    }
+    
+    .solutions p{
+        bottom: 100px;
+        font-size: 0.8rem;
+    }
+    .solutions button{
+        font-size: 1rem;
+        position: absolute;
+        top:75%;
+        left: 1.5%;
+        margin-left: 80px;
+    }
+    .solutions-end img{
+        height: 380px;
+    }
+    
+    .solutions-end h1{
+        font-size: 1.2rem;
+        bottom: 200px;
+    }
+    
+    .solutions-end p{
+        bottom: 120px;
+        font-size: 0.5rem;
+    }
+    .solutions-end button{
+        left: 5%;
+    }
+    .case-end h1{
+        font-size: 1.3rem;
+        bottom: 150px;
+    }
+    
+    .case-end p{
+        bottom: 70px;
+        font-size: 0.5rem;
+        line-height: 1rem;
+    }
+
+    .case-end button{
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .first-img h2{
+        bottom: 100px;
+        font-size: 0.9rem;
+    }
+    .first-img p{
+        bottom: 50px;
+        margin-right: 20px;
+        font-size: 0.6rem;
+    }
+    .second-img img{
+        height: 105px;
+        width: 350px;
+    }
+    
+    .second-img h4{
+        bottom: 50px;
+        font-size: 0.8rem;
+    }
+    .second-img p{
+        bottom: 5px;
+        font-size: 0.5rem;
+    }
+    .solutions h1{
+        font-size: 1rem;
+        bottom: 150px;
+    }
+    
+    .solutions p{
+        bottom: 100px;
+        font-size: 0.5rem;
+    }
+    .solutions button{
+        font-size: 1rem;
+        position: absolute;
+        top:75%;
+        left: 1.5%;
+        margin-left: 80px;
+    }
+    .solutions-end img{
+        height: 300px;
+    }
+    
+    .solutions-end h1{
+        font-size: 0.8rem;
+        bottom: 180px;
+    }
+    
+    .solutions-end p{
+        bottom: 80px;
+        font-size: 0.5rem;
+    }
+    .solutions-end button{
+        left: 5%;
+    }
+    .case-end h1{
+        font-size: 1.3rem;
+        bottom: 150px;
+    }
+    
+    .case-end p{
+        bottom: 70px;
+        font-size: 0.5rem;
+        line-height: 1rem;
+    }
+
+    .case-end button{
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 600px ) {
+    .first-img h2{
+        bottom: 100px;
+        font-size: 0.9rem;
+    }
+    .first-img p{
+        bottom: 50px;
+        margin-right: 20px;
+        font-size: 0.6rem;
+    }
+    .second-img img{
+        height: 105px;
+        width: 350px;
+    }
+    
+    .second-img h4{
+        bottom: 50px;
+        font-size: 0.8rem;
+    }
+    .second-img p{
+        bottom: 5px;
+        font-size: 0.5rem;
+    }
+    .solutions h1{
+        display: none;
+    }
+    
+    .solutions p{
+        display: none;
+    }
+    .solutions button{
+        display: none;
+    }
+    .solutions-end img{
+        height: 300px;
+    }
+    
+    .solutions-end h1{
+        display: none;
+
+    }
+    
+    .solutions-end p{
+        display: none;
+    }
+    .solutions-end button{
+        display: none;
+    }
+    .case-end h1{
+        display: none;
+
+    }
+    
+    .case-end p{
+        display: none;
+
+    }
+
+    .case-end button{
+        display: none;
+
+    }
+}
+
+
+
+
+
+
+
